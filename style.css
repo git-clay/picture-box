@@ -1,0 +1,40 @@
+.container{
+	border:3px solid black;
+	height: 500px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.mainImg{
+	width: 399px;
+	height: 98%;
+	margin:3px 1px 3px 3px;
+	display: flex;
+	position: relative;
+}
+.thumbCont{
+	width: 200px;
+	height: 98%;
+	margin:3px 1px 3px 1px;
+	/*border: 1px solid blue;*/
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+}
+.thumbnail{
+	height: 94px;
+	width: 94px;
+	margin:1px;
+	/*border:1px solid green;*/
+	position: relative;
+	display: flex;
+}
+.largeImg{
+	max-height: 100%;
+	max-width: 100%;
+}
+img{
+	max-width: 94px;
+	max-height: 94px;
+}
