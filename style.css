@@ -1,13 +1,13 @@
 .container{
 	border:3px solid black;
 	height: 500px;
-	width: 600px;
+	width: 700px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 }
 .mainImg{
-	width: 399px;
+	width: 499px;
 	height: 98%;
 	margin:3px 1px 3px 3px;
 	display: flex;
@@ -22,6 +22,10 @@
 	flex-wrap: wrap;
 	position: relative;
 }
+.img{
+	max-width: 94px;
+	max-height: 94px;
+}
 .thumbnail{
 	height: 94px;
 	width: 94px;
@@ -31,10 +35,7 @@
 	display: flex;
 }
 .largeImg{
+	overflow: hidden;
 	max-height: 100%;
-	max-width: 100%;
-}
-img{
-	max-width: 94px;
-	max-height: 94px;
+	margin:0 auto;
 }
