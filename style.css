@@ -25,6 +25,7 @@
 .img{
 	max-width: 94px;
 	max-height: 94px;
+	margin:0 auto;
 }
 .thumbnail{
 	height: 94px;
@@ -38,4 +39,5 @@
 	overflow: hidden;
 	max-height: 100%;
 	margin:0 auto;
+
 }
