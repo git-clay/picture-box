@@ -8,15 +8,13 @@
 }
 .mainImg{
 	width: 499px;
-	height: 98%;
-	margin:3px 1px 3px 3px;
+	height: 100%;
 	display: flex;
 	position: relative;
 }
 .thumbCont{
 	width: 200px;
 	height: 98%;
-	margin:3px 1px 3px 1px;
 	/*border: 1px solid blue;*/
 	display: flex;
 	flex-wrap: wrap;
