@@ -7,11 +7,12 @@
 .container{
 	border:3px solid black;
 	height: 605px;
-	width: 902px;
+	width: 852px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	position: relative;
+	padding:10px;
 }
 .mainImg{
 	width: 600px;
@@ -19,9 +20,10 @@
 	display: flex;
 	position: relative;
 	flex-wrap: wrap;
+	margin-bottom: 0 auto;
 }
 .thumbCont{
-	width: 200px;
+	width: 255px;
 	max-height: 98%;
 	overflow: auto;
 	/*border: 1px solid blue;*/
@@ -30,14 +32,16 @@
 	position: relative;
 }
 .img{
-	max-width: 94px;
-	max-height: 94px;
-	margin:0 auto;
+	width: 105px;
+	height: 57px;
+	margin:10px;
+	opacity: .66;
+
 }
 .thumbnail{
-	height: 94px;
-	width: 94px;
-	margin:1px;
+	height: 57px;
+	width: 105px;
+	margin:10px;
 	/*border:1px solid green;*/
 	position: relative;
 	display: flex;
