@@ -1,3 +1,9 @@
+/* container is the whole object
+	mainImg is the container for the large picture
+
+	if you want to make this larger or smaller, change the height/width on those
+	two accordingly */
+
 .container{
 	border:3px solid black;
 	height: 500px;
