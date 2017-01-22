@@ -11,16 +11,16 @@ var mainImg= document.getElementsByClassName('mainImg')[0],
 
 for(var i = 0;i<len;i++){
 	tImgs[i].addEventListener('mouseover',function(){
-		this.style.opacity = '.56'
+		this.style.opacity = '1'
 	})
 	tImgs[i].addEventListener('mouseout',function(){
-		this.style.opacity = '1'
+		this.style.opacity = '.46'
 	})
 	tImgs[i].addEventListener('click',function(){
 		var cur=this.getAttribute('id');
 		cur = parseInt(cur)
 		console.log(cur)
-		append((cur+1))
+		append(cur)
 	})
 }
 	// var cur=this.getAttribute('src'),
