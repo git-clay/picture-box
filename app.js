@@ -1,18 +1,15 @@
 var mainImg= document.getElementsByClassName('mainImg')[0],
 	tImgs = document.getElementsByClassName('img'),
 	len = tImgs.length,
-	lrgImgArr = ['bevel-bullnose','bevel','bullnose','classic-ogee','double-bevel',
-	'double-ogee','double-radius','half-bullnose','step-half-bullnose',
-	'eased','dupont-bullnose','triple-pencil','waterfall'],
+	lrgImgArr,
 	src= tImgs[0].getAttribute('src');
 
 	function append (newimg){ 
-		mainImg.innerHTML ='<img class="largeImg" src="./img/visualizer/'+newimg+'-countertop.jpg">'};
+		mainImg.innerHTML ='<img class="largeImg" src="./img/edge'+newimg+'.jpg">'};
 
-
+		append(1)
 
 for(var i = 0;i<len;i++){
-	var cur =lrgImgArr[i];
 	tImgs[i].addEventListener('mouseover',function(){
 		this.style.opacity = '.56'
 	})
@@ -21,8 +18,9 @@ for(var i = 0;i<len;i++){
 	})
 	tImgs[i].addEventListener('click',function(){
 		var cur=this.getAttribute('id');
+		cur = parseInt(cur)
 		console.log(cur)
-		append(lrgImgArr[cur])
+		append((cur+1))
 	})
 }
 	// var cur=this.getAttribute('src'),
