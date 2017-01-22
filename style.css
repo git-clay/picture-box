@@ -5,7 +5,7 @@
 	two accordingly */
 
 .container{
-	border:3px solid black;
+	border:5px gray groove;
 	height: 605px;
 	width: 852px;
 	display: flex;
@@ -31,25 +31,41 @@
 	flex-wrap: wrap;
 	position: relative;
 }
+.edgepro{
+	width: 100%;
+	text-align: center;
+	background-color: lightgrey;
+	border:5px gray groove;
+	margin:8px;
+}
 .img{
-	width: 105px;
+	max-width: 105px;
 	height: 57px;
 	margin:10px;
 	opacity: .66;
 
 }
 .thumbnail{
-	height: 57px;
+	height: 87px;
 	width: 105px;
 	margin:10px;
 	/*border:1px solid green;*/
 	position: relative;
 	display: flex;
 }
+.thumbnail h5{
+	position: absolute;
+	width: 100px;
+	top: 48px;
+	left: 15px;
+	text-align: center
+}
 .largeImg{
 	overflow: hidden;
 	max-height: 100%;
 	margin:0 auto;
+	border:5px gray groove;
+	padding:1px;
 }
 .gridImg{
 	height: 200px;
