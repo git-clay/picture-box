@@ -6,18 +6,19 @@
 
 .container{
 	border:3px solid black;
-	height: 500px;
-	width: 700px;
+	height: 605px;
+	width: 902px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	position: relative;
 }
 .mainImg{
-	width: 499px;
-	height: 100%;
+	width: 600px;
+	height: 600px;
 	display: flex;
 	position: relative;
+	flex-wrap: wrap;
 }
 .thumbCont{
 	width: 200px;
@@ -45,5 +46,10 @@
 	overflow: hidden;
 	max-height: 100%;
 	margin:0 auto;
-
+}
+.gridImg{
+	height: 200px;
+	width: 200px;
+	display: flex;
+	position: relative;
 }
