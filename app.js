@@ -28,3 +28,17 @@ for(var i = 0;i<len;i++){
 	// var cur=this.getAttribute('src'),
 	// 	append = mainImg.innerHTML ='<img class="largeImg" src="'+cur+'">'
 	
+
+
+
+//good pics__
+//bevel 
+//bullnose
+//eased
+//triple-pencil
+//waterfall
+
+//blurry__
+//classic-ogee
+//dupont-bullnose
+//half-bullnose
